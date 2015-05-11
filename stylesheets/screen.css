@@ -1,0 +1,775 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 21, ../sass/screen.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 26, ../sass/screen.scss */
+.flexImg99, .mainWrapperX32 img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+/* line 32, ../sass/screen.scss */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 41, ../sass/screen.scss */
+#wrapperX {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-size: 1em;
+}
+/* line 12, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.2.1/sass/susy/output/support/_clearfix.scss */
+#wrapperX:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 49, ../sass/screen.scss */
+.mainWrapperX32 {
+  width: 100%;
+  float: left;
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.mainWrapperX32:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 55, ../sass/screen.scss */
+.mainWrapperX32 .headerX99 {
+  width: 100%;
+  box-sizing: border-box;
+  float: left;
+  background: #4355A5;
+  letter-spacing: 1px;
+  padding-left: 6%;
+  line-height: 1;
+  border-top: 1px solid #C5CAE6;
+  border-bottom: 1px solid #C5CAE6;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  box-shadow: 0px 2px 2px 1px rgba(119, 119, 119, 0.75);
+  -moz-box-shadow: 0px 2px 2px 1px rgba(119, 119, 119, 0.75);
+  -webkit-box-shadow: 0px 2px 2px 1px rgba(119, 119, 119, 0.75);
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.mainWrapperX32 .headerX99:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 73, ../sass/screen.scss */
+.mainWrapperX32 .headerX99 .promoNameX {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
+}
+/* line 80, ../sass/screen.scss */
+.mainWrapperX32 .headerX99 .offerX99_main {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 800;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+/* line 94, ../sass/screen.scss */
+.fixedHeaderWrap {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.fixedHeaderWrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 102, ../sass/screen.scss */
+.flt {
+  float: left;
+}
+
+/* line 106, ../sass/screen.scss */
+.frt {
+  float: right;
+}
+
+/* line 110, ../sass/screen.scss */
+.innerOfferImgCont {
+  width: 62.5%;
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.innerOfferImgCont:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 116, ../sass/screen.scss */
+.innerOfferImgCont img {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+/* line 126, ../sass/screen.scss */
+.txtBannerX {
+  margin: 4px 0 2px 0;
+  padding: 0 4px;
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.txtBannerX:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 135, ../sass/screen.scss */
+.innerTextOfferX {
+  width: 37.5%;
+  line-height: 0.1em;
+  padding-left: 5%;
+  box-sizing: border-box;
+  color: #202020;
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.innerTextOfferX:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 144, ../sass/screen.scss */
+.innerTextOfferX .priceContX {
+  text-transform: none;
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 900;
+  margin-top: 1em;
+  display: inline-block;
+}
+/* line 153, ../sass/screen.scss */
+.innerTextOfferX .cat99X {
+  font-size: 8px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-variant: small-caps;
+}
+/* line 160, ../sass/screen.scss */
+.innerTextOfferX .minCartX_99 {
+  font-size: 8px;
+  display: inline-block;
+  line-height: 1;
+  margin-top: 1em;
+  text-transform: none;
+}
+
+/* line 171, ../sass/screen.scss */
+#fixedNavBarX32 {
+  position: fixed;
+  left: 0;
+  z-index: 5;
+  visibility: hidden;
+}
+
+/* line 178, ../sass/screen.scss */
+.wrapCenterCont {
+  height: 100%;
+  width: 100%;
+}
+/* line 184, ../sass/screen.scss */
+.wrapCenterCont:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* line 195, ../sass/screen.scss */
+.centeredContX {
+  display: inline-block;
+  vertical-align: middle;
+  width: 96%;
+}
+
+/* line 206, ../sass/screen.scss */
+.navContMain {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  z-index: 99;
+  -webkit-box-shadow: -1px 1px 2px 1px rgba(255, 50, 50, 0.63);
+  -moz-box-shadow: -1px 1px 2px 1px rgba(50, 50, 50, 0.63);
+  box-shadow: -1px 1px 2px 1px rgba(50, 50, 50, 0.63);
+  margin-bottom: 4px;
+  position: relative;
+  float: left;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+  background: #4355A5;
+}
+/* line 220, ../sass/screen.scss */
+.navContMain .iconX {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #31429B;
+  right: 0;
+  top: 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 11px;
+  line-height: 0.6;
+  z-index: 3;
+  cursor: pointer;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  -webkit-box-shadow: -2px 0px 1px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: -2px 0px 1px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: -2px 0px 1px 0px rgba(0, 0, 0, 0.7);
+}
+/* line 240, ../sass/screen.scss */
+.navContMain .iconX > span.texterino {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 13px 0 0 2px;
+  font-size: 9px;
+  box-sizing: border-box;
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.navContMain .iconX > span.texterino:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 252, ../sass/screen.scss */
+.navContMain .clickActivateX {
+  position: relative;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: none;
+}
+/* line 263, ../sass/screen.scss */
+.navContMain .clickActivateX .headerX {
+  height: 40px;
+  background: #31429B;
+  font-size: 0.875em;
+  line-height: 40px;
+  padding-left: 0%;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.navContMain .clickActivateX .headerX:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 281, ../sass/screen.scss */
+.navContMain .clickActivateX ul {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 0%;
+  float: left;
+  font-size: 16px;
+  background: #4355A5;
+}
+/* line 292, ../sass/screen.scss */
+.navContMain .clickActivateX ul li {
+  padding: 0.666em 0;
+  width: 100%;
+  color: #ffffff;
+  font-size: 0.688em;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 305, ../sass/screen.scss */
+.navContMain .clickActivateX ul li:last-child {
+  margin-bottom: 1em;
+}
+/* line 309, ../sass/screen.scss */
+.navContMain .clickActivateX ul li.activerino {
+  background: #22377A;
+}
+
+/* line 319, ../sass/screen.scss */
+#swipeWrapperX01, #swipeWrapperX {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  /* Prevent native touch events on Windows */
+  -ms-touch-action: none;
+  /* Prevent the callout on tap-hold and text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Prevent text resize on orientation change, useful for web-apps */
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+/* line 345, ../sass/screen.scss */
+#swipeWrapperX01 ul.swiperino, #swipeWrapperX ul.swiperino {
+  position: absolute;
+  width: 610px;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  z-index: 1;
+  /* Prevent elements to be highlighted on tap */
+  -webkit-tap-highlight-color: transparent;
+  /* Put the scroller into the HW Compositing layer right from the start */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+/* line 364, ../sass/screen.scss */
+#swipeWrapperX01 ul.swiperino li, #swipeWrapperX ul.swiperino li {
+  padding: 1em 0.688em;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.688em;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  background: #4355A5;
+  border-bottom: 2px solid rgba(238, 240, 252, 0.34);
+  -webkit-box-shadow: 0px 3px 2px 1px rgba(49, 66, 155, 0.6);
+  -moz-box-shadow: 0px 3px 2px 1px rgba(49, 66, 155, 0.6);
+  box-shadow: 0px 3px 2px 1px rgba(49, 66, 155, 0.6);
+}
+/* line 383, ../sass/screen.scss */
+#swipeWrapperX01 ul.swiperino li:nth-child(2n), #swipeWrapperX ul.swiperino li:nth-child(2n) {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+/* line 387, ../sass/screen.scss */
+#swipeWrapperX01 ul.swiperino li:nth-child(3n), #swipeWrapperX ul.swiperino li:nth-child(3n) {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+/* line 391, ../sass/screen.scss */
+#swipeWrapperX01 ul.swiperino li.activerino, #swipeWrapperX ul.swiperino li.activerino {
+  font-weight: bold;
+  color: #ffffff;
+  background: #22377A;
+  border-bottom: 2px solid #ffffff;
+  -webkit-box-shadow: 0px 3px 2px 1px #31429b;
+  -moz-box-shadow: 0px 3px 2px 1px #31429b;
+  box-shadow: 0px 3px 2px 1px #31429b;
+}
+
+/* line 405, ../sass/screen.scss */
+.innerSwipContx {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 198px;
+  /* include shadow height */
+  overflow: hidden;
+  /* Prevent native touch events on Windows */
+  -ms-touch-action: none;
+  /* Prevent the callout on tap-hold and text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Prevent text resize on orientation change, useful for web-apps */
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+/* line 431, ../sass/screen.scss */
+.innerSwipContx .swiperino {
+  position: absolute;
+  width: 875px;
+  display: block;
+  left: 0;
+  top: 4px;
+  box-sizing: border-box;
+  z-index: 1;
+  /* Prevent elements to be highlighted on tap */
+  -webkit-tap-highlight-color: transparent;
+  /* Put the scroller into the HW Compositing layer right from the start */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+/* line 453, ../sass/screen.scss */
+.innerSwipContx ul {
+  width: 100%;
+  float: left;
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.innerSwipContx ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 459, ../sass/screen.scss */
+.innerSwipContx ul li {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  padding: 0;
+}
+/* line 466, ../sass/screen.scss */
+.innerSwipContx ul li:first-child {
+  margin-left: 5px;
+}
+/* line 470, ../sass/screen.scss */
+.innerSwipContx ul li:last-child {
+  margin-right: 0;
+}
+/* line 475, ../sass/screen.scss */
+.innerSwipContx ul li .innerContXBlock {
+  width: 140px;
+  float: left;
+  height: 190px;
+  -webkit-box-shadow: -1px 1px 1px 1px rgba(50, 50, 50, 0.17);
+  -moz-box-shadow: -1px 1px 1px 1px rgba(50, 50, 50, 0.17);
+  box-shadow: -1px 1px 1px 1px rgba(50, 50, 50, 0.17);
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.innerSwipContx ul li .innerContXBlock:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 484, ../sass/screen.scss */
+.innerSwipContx ul li .innerContXBlock img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.15);
+  -moz-box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.15);
+  box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.15);
+}
+/* line 495, ../sass/screen.scss */
+.innerSwipContx ul li .innerContXBlock .offerContX99 {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  padding: 1px 4px 4px 4px;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  text-align: left;
+  line-height: 0.6;
+}
+/* line 505, ../sass/screen.scss */
+.innerSwipContx ul li .innerContXBlock .offerContX99 .shopSymbolX {
+  height: 20px;
+  width: 20px;
+  background: #4BB04E;
+  position: absolute;
+  top: -12px;
+  right: 12px;
+  z-index: 1;
+  border-radius: 22px;
+  text-align: center;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(50, 50, 50, 0.33);
+  -moz-box-shadow: 0px 1px 2px 1px rgba(50, 50, 50, 0.33);
+  box-shadow: 0px 1px 2px 1px rgba(50, 50, 50, 0.33);
+}
+/* line 520, ../sass/screen.scss */
+.innerSwipContx ul li .innerContXBlock .offerContX99 .shopSymbolX span {
+  font-size: 11px;
+  line-height: 19px;
+  color: #ffffff;
+  padding-left: 2px;
+}
+/* line 530, ../sass/screen.scss */
+.innerSwipContx ul li .innerContXBlock .offerContX99 .itemNameX32 {
+  text-transform: none;
+  font-size: 10px;
+  color: #202020;
+  font-weight: bold;
+}
+/* line 537, ../sass/screen.scss */
+.innerSwipContx ul li .innerContXBlock .offerContX99 .cat99X {
+  font-size: 8px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  color: #737475;
+  letter-spacing: 1px;
+}
+/* line 546, ../sass/screen.scss */
+.innerSwipContx ul li .innerContXBlock .offerContX99 .priceContX {
+  text-transform: none;
+  font-size: 12px;
+  line-height: 2.4;
+  color: #4BB04E;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+/* line 567, ../sass/screen.scss */
+.cat99X {
+  font-size: 8px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+}
+
+/* line 575, ../sass/screen.scss */
+.priceContX {
+  text-transform: none;
+  font-size: 12px;
+  line-height: 2.4;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+/* line 583, ../sass/screen.scss */
+.setBG_ethnic {
+  background: #FDC784;
+}
+
+/* line 587, ../sass/screen.scss */
+.setBG_mutedBlue {
+  background: #C9D3DB;
+}
+
+/* line 592, ../sass/screen.scss */
+.contentAllX, .contentX99wrap {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.contentAllX:after, .contentX99wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@-webkit-keyframes animate-margin-top {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 31px;
+  }
+}
+@-moz-keyframes animate-margin-top {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 31px;
+  }
+}
+@keyframes animate-margin-top {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 31px;
+  }
+}
+/* line 627, ../sass/screen.scss */
+.giffMargin {
+  -webkit-animation: animate-margin-top 0.3s;
+  -moz-animation: animate-margin-top 0.3s;
+  animation: animate-margin-top 0.3s;
+  margin-top: 31px;
+}
+
+/* line 634, ../sass/screen.scss */
+.stripHeaderX {
+  width: 100%;
+  float: left;
+  margin: 0.29em 0;
+  padding: 0.6em 0 0.6em 1em;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow: 0px 1px 1px 1px rgba(50, 50, 50, 0.25);
+  box-shadow: 0px 1px 1px 1px rgba(50, 50, 50, 0.25);
+  background: #4355A5;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.stripHeaderX:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 649, ../sass/screen.scss */
+.stripHeaderX h2 {
+  text-transform: none;
+  font-size: 1em;
+  line-height: 1.3;
+  font-weight: bold;
+  text-align: left;
+}
+/* line 657, ../sass/screen.scss */
+.stripHeaderX h2 span {
+  text-transform: uppercase;
+  font-size: 0.688em;
+  line-height: 1;
+  font-weight: 300;
+}
+
+/* line 667, ../sass/screen.scss */
+.bannerWrap {
+  width: 100%;
+  float: left;
+  margin-bottom: 6px;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.bannerWrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 675, ../sass/screen.scss */
+.bannerWrap > img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  -webkit-box-shadow: -1px 1px 2px 1px rgba(255, 50, 50, 0.23);
+  -moz-box-shadow: -1px 1px 2px 1px rgba(50, 50, 50, 0.23);
+  box-shadow: -1px 1px 2px 1px rgba(50, 50, 50, 0.23);
+  float: left;
+  box-sizing: border-box;
+}
+
+/* line 688, ../sass/screen.scss */
+.contentX99wrap .bannerWrap:first-child {
+  margin-top: 4px;
+}
+
+/* line 692, ../sass/screen.scss */
+.contentX99wrap .bannerWrap:last-child {
+  margin-bottom: 3px;
+}
+
+/* line 696, ../sass/screen.scss */
+.wrapSectionX {
+  width: 100%;
+  float: left;
+}
+/* line 15, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.wrapSectionX:after {
+  content: "";
+  display: table;
+  clear: both;
+}
